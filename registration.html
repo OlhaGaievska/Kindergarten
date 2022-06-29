@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header class="header">
+        <p class="header_heading">
+            <a href="./index.html">
+                <img 
+                src="Sprout_logo.svg.png" 
+                alt="sprout_photo"
+                class="sprout_photo"
+                >
+            </a>
+        </p>
+        <nav class="header_nav">
+            <ul class="header_menu">
+                <li class="header_menu_li">
+                    <a href="./kindergarten.html">Kindergarten</a> 
+                </li>
+                <li class="header_menu_li">
+                    <a href="./children.html">Kinder</a> 
+                </li>
+                <li class="header_menu_li">
+                   <a href="./eltern.html">Eltern</a> 
+                </li>
+                <li class="header_menu_li">
+                    <a href="./news.html">Neuigkeiten</a> 
+                </li>
+                <li class="header_menu_li">
+                    <a href="./registration.html">Anmeldung</a> 
+                </li>
+                <li class="header_menu_li">
+                   <a href="./contact.html">Kontakte</a> 
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="main_profile_info">
+            <div class="profile_info">
+                <div class="list_main_menu">
+                    <ul class="list_menu">
+                        <li class="header_list_li">
+                            <a href="">Einstieg in den Kindergarten</a> 
+                        </li>
+                        <li class="header_list_li">
+                            <a href="">Kindergarten zur Förderung</a> 
+                        </li>
+                        <li class="header_list_li">
+                           <a href="">Frühkindliche Bildung im Kindergarten</a> 
+                        </li>
+                        <li class="header_list_li">
+                            <a href="">Vorschulerziehung</a> 
+                        </li>
+                        <li class="header_list_li">
+                            <a href="">Schulkindergarten</a> 
+                        </li>
+                        <li class="header_list_li">
+                           <a href="">Kontakte</a> 
+                        </li>
+                    </ul>
+                </div>
+            <div class="registration_please">    
+                <div class="registration">
+                        <h2>Anmeldung</h2>
+                        <form action="registration_form">
+                            <div class="name_surname"> 
+                                <div class="name"> 
+                                    Name <input type="text">  
+                                </div>
+                                <div class="surname"> 
+                                    Vorname <input type="text">
+                                </div>
+                            </div>
+                            <div class="date_phone"> 
+                                <div class="date"> 
+                                    Geburtsdatum <input type="date">
+                                </div>
+                                <div class="phone"> 
+                                    Telefon <input id="phone" type="phone">                            
+                                </div>
+                            </div>
+                            <div class="email_password"> 
+                                <div class="email"> 
+                                    Email <input type="email" >  
+                                </div>
+                                <div class="password"> 
+                                    Password <input type="password" >
+                                </div>
+                            </div>
+                            <div class="from_where_header">
+                                <p> Woher haben Sie von uns gehört?</p>
+                                <div class="from_where_radio">
+                                    <input id="from_where_choise_1" type="radio" name="radio" value="1" checked>
+                                        <label for="from_where_choise_1">Facebook</label>
+                                    <input id="from_where_choise_2" type="radio" name="radio" value="1" checked>
+                                        <label for="from_where_choise_2">Friends</label>
+                                    <input id="from_where_choise_3" type="radio" name="radio" value="1" checked>
+                                        <label for="from_where_choise_3">Google</label>
+                                </div>
+                            </div>
+                            <div class="feedback">
+                                <p> Bitte hinterlassen Sie Ihr</p>                        
+                                <textarea name="Feedback" id="Feedback" cols="50" rows="12"></textarea>
+                            </div>
+                            <div class="button">
+                                <button type="button" name="button">Fertig</button>
+                                <button type="button" name="button">Ausfahrt</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>    
+            </div>        
+        </div>
+    </main>
+</body>
+</html>
