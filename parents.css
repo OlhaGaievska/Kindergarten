@@ -1,0 +1,238 @@
+.parents{
+    width: 87%;
+    height: 100%;
+    overflow-x: scroll;        
+    align-items: center;
+    display: flex;    
+}
+
+.parents_block{    
+    width: 70%;                
+    margin: 2em 4.5em;    
+    padding: 2em 1em;   
+    border-radius: .3em;    
+    padding: .5em 1em;    
+    background-color: rgb(254, 255, 254, 0.7);
+    font-size: 18px;
+    text-align: left;
+    border-radius: .3em; 
+    color: rgb(62, 117, 59);
+        
+}
+
+.parents_block_father{
+    width: 90%;
+    height: 25%;
+    margin: 2em;
+  
+
+}
+
+.parents_block_father_foto{
+    width: 70%;
+    height: 30%; 
+    margin: 4em 0em 0em 0em;
+
+}
+
+.father_photo{
+    width: 100%;
+    height: 100%;
+}
+
+.parents_block_father_text{
+    font-size: 16px;
+}
+
+.parents_block_father_text span{
+    color: rgb(62, 117, 59);
+}
+
+.parents_block_father_text span:after {
+    content: '\270D';   
+}
+
+.parents_block_with_baby_alone{
+    width: 90%;
+    height: 25%;
+    margin: 2em;  
+
+}
+
+.with_baby_alone_photo{
+    width: 70%;
+    height: 30%; 
+}
+
+.parents_block_with_baby_alone_foto{
+    width: 100%;
+    height: 100%;
+    margin: 4em 0em 0em 0em;
+}
+
+.without_marrige_photo{
+    width: 70%;
+    height: 30%; 
+}
+
+.parents_block_with_baby_alone_text{
+    font-size: 16px;
+}
+
+.parents_block_with_baby_alone_text span{
+    color: rgb(62, 117, 59);
+}
+
+.parents_block_with_baby_alone_text span:after {
+    content: '\270D';   
+}
+
+.parents_block_classic_family{
+    width: 90%;
+    height: 25%;
+    margin: 2em;
+  
+
+}
+
+.parents_block_classic_family_foto{
+    width: 70%;
+    height: 30%;
+    margin: 4em 0em 0em 0em;
+}
+
+.classic_family_photo{
+    width: 100%;
+    height: 100%;
+}
+
+.parents_block_classic_family_text{
+    font-size: 16px;
+}
+
+.parents_block_classic_family_text span{
+    color: rgb(62, 117, 59);
+}
+
+.parents_block_classic_family_text span:after {
+    content: '\270D';   
+}
+
+.parents_block_without_merriage{
+    width: 90%;
+    height: 25%;
+    margin: 2em;
+    
+
+}
+
+.parents_block_without_merriage_foto{
+    width: 100%;
+    height: 100%;
+    margin: 4em 0em 0em 0em;   
+}
+
+
+.parents_block_without_merriage_text{
+    font-size: 16px;
+}
+
+
+.parents_block_without_merriage_text span{
+    color: rgb(62, 117, 59);
+}
+
+.parents_block_without_merriage_text span:after {
+    color: rgb(62, 117, 59);
+}
+
+.parents_menu{
+    width: 30%;
+    height: 100%;           
+
+}
+
+
+
+.parents_menu_list{
+    width: 85%;
+    height: 30%;
+    margin: 2.5em;
+    background: #E9E4E0;
+    border-radius: .3em;
+    box-shadow: 4px 5px 5px rgb(254, 255, 254, 0.7) inset;
+    padding: .1em;
+}
+
+.parents_menu_list
+>h5{    
+    margin: 0;
+    background: #6aa8cf;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    display: block;
+    padding: .4em;
+    border-radius: .3em;
+    box-shadow: 4px 5px 5px rgb(254, 255, 254, 0.7) inset;
+}
+
+.parents_menu_list_li {
+    margin: .2em;  
+    position: relative;
+    display: block;
+    padding: .2em;
+        
+}
+
+.parents_menu_list_li a:hover {
+    background: rgb(106, 168, 207, 0.7);
+    border-radius: .3em;
+}
+
+.parents_menu_list_li a:before {
+    content: '\273F';
+    margin: 1em;
+}
+
+.parents_menu_list_li a{    
+    color: #1c87c9;
+    text-decoration: none;
+}
+
+.parents_menu_share{
+    width: 75%;
+    height: 25%;    
+    box-shadow: 4px 5px 5px rgb(254, 255, 254) inset;
+    padding: .5em 1em;
+    background-color: rgb(106, 168, 207);
+    color: white;    
+    margin: 0em 4em 0em 2em;
+    border-radius: .3em;
+    text-align: left;
+    font-size: 20px;
+
+}
+
+.button_share_picture{
+    width: 25px;
+    height: 25px;  
+}
+
+.button_drucken_picture{
+    width: 25px;
+    height: 25px;  
+}
+
+.parents_menu_share button{
+    color: white;
+    background-color:rgb(106, 168, 207, 0.1);
+    border:rgb(106, 168, 207, 0.1);
+    font-size: 16px;
+    border-radius: .3em;
+}
+
+.parents_menu_share button:hover{
+    background: rgb(254, 255, 254, 0.7);
+    border-radius: .3em;
+}   

@@ -1,0 +1,24 @@
+.contact_please{
+    width: 87%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    margin: 2em; 
+}
+
+.contact{
+    width: 75%;
+    height: 100%;
+    border: 1px solid rgb(62, 117, 59);
+    box-sizing: inherit;
+    padding: .5em 1em;
+    color: white;
+    background-color: rgb(62, 117, 59, 0.5);
+    font-size: 18px;
+    text-align: justify;
+}
+
+.sind_photo{
+    width: 2%;
+    height: 2%;
+}

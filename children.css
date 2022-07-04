@@ -1,0 +1,231 @@
+.corona_block{
+    width: 87%;
+    height: 100%;
+    overflow-x: scroll;
+    
+}
+
+
+.corona_block_inform{
+    width: 90%;
+    height: 20%;
+    margin: 0em 4em;
+    color: #158bd4;
+    align-items: center;
+    font-size: 22px;
+}
+
+.corona_block_picture_article_shear{
+    width: 100%;
+    height: 40%;
+    display: flex; 
+    object-fit: contain;
+}
+
+.corona_block_picture_childrens{
+    width: 45%;
+    height: 100%;
+    display: flex; 
+    object-fit: contain;
+    
+}
+
+.childrens_photo{
+    width: 100%;
+    height: 100%;
+    margin: 0em 5em;
+}
+
+.corona_block_article_share{
+    width: 30%;
+    height: 50%;    
+    box-shadow: 4px 5px 5px rgb(254, 255, 254) inset;
+    padding: .5em 1em;
+    background-color: rgb(106, 168, 207);
+    color: white;    
+    margin: 0em 0em 0em 18em;
+    border-radius: .3em;
+    text-align: left;
+    font-size: 20px;
+}
+
+.button_share_picture{
+    width: 25px;
+    height: 25px;  
+}
+
+.button_drucken_picture{
+    width: 25px;
+    height: 25px;  
+}
+
+.corona_block_article_share button{
+    color: white;
+    background-color:rgb(106, 168, 207, 0.1);
+    border:rgb(106, 168, 207, 0.1);
+    font-size: 16px;
+    border-radius: .3em;
+}
+
+.corona_block_article_share button:hover{
+    background: rgb(254, 255, 254, 0.7);
+    border-radius: .3em;
+}   
+
+.corona_block_list_menu{
+    width: 100%;
+    height: 100%;
+    margin: 1em 2.5em;
+}
+
+.corona_block_header_list_li {
+    width: 40%;    
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    margin: .5em 0;
+    background: rgb(62, 117, 59, 0.3);
+    border-radius: .3em;    
+}
+
+.corona_block_header_list_li a:hover {
+    background: #6aa8cf;
+    border-radius: .3em;
+}
+
+.corona_block_header_list_li a:before {
+    content: '\273F';
+    margin: 1em;
+}
+
+.corona_block_header_list_li a{    
+    color: white;
+    text-decoration: none;
+}
+
+.corona_block_text{
+    width: 70%;       
+    margin: 2em 4.5em;
+    justify-content: space-between;
+    padding: 2em 1em;   
+    border-radius: .3em;    
+    padding: .5em 1em;    
+    background-color: rgb(254, 255, 254, 0.7);
+    font-size: 18px;
+    text-align: left;
+    border-radius: .3em; 
+    color: rgb(62, 117, 59);
+    
+}
+
+.corona_block_apps_for_children{
+    margin: 4em 2em;
+}
+
+.corona_block_apps_for_children_span::before{
+    content: '\2192';
+    margin: 1em;    
+}
+
+.corona_block_apps_for_children span{    
+    color: rgb(62, 117, 59); 
+}
+
+.corona_block_apps_for_children span:hover {
+    background: #6aa8cf;
+    border-radius: .3em;
+}
+
+.corona_block_apps_for_children span::after{
+    content: '\270D';     
+    text-decoration: none;  
+}
+
+.corona_block_apps_for_children_child_search_engines{
+    margin: 4em 2em;
+}
+
+.corona_block_apps_for_children_child_search_engines_list_li {
+    width: 40%;    
+    position: relative;
+    display: block;        
+    border-radius: .3em;    
+}
+
+.corona_block_apps_for_children_child_search_engines_list_li a:hover {
+    background: #6aa8cf;
+    border-radius: .3em;
+}
+
+.corona_block_apps_for_children_child_search_engines_list_li a::before {
+    content: '\273F';
+    margin: 1em;  
+}
+
+.corona_block_apps_for_children_child_search_engines_list_li a:after {
+    content: '\270D';   
+}
+
+.corona_block_apps_for_children_child_search_engines_list_li a{    
+    color: rgb(62, 117, 59);
+}
+
+.corona_block_children_radio_plays{
+    margin: 4em 2em;
+}
+
+.corona_block_children_radio_plays_text a{
+    color: rgb(62, 117, 59);
+}
+
+.corona_block_children_radio_plays_text span:hover {
+    background: #6aa8cf;
+    border-radius: .3em;
+}
+
+.corona_block_children_radio_plays_text span:after {
+    content: '\270D';   
+}
+
+.corona_block_children_radio{
+    margin: 4em 2em;
+}
+
+.corona_block_children_radio_text span{
+    color: rgb(62, 117, 59);
+}
+
+.corona_block_children_radio_text a:after {
+    content: '\270D';   
+}
+
+.corona_block_children_radio_text span::before {
+    content: '\273F';
+    margin: 1em;  
+}
+
+.corona_block_children_radio_text a{
+    color: rgb(62, 117, 59);
+}
+
+.corona_block_children_radio_text a:hover {
+    background: #6aa8cf;
+    border-radius: .3em;
+}
+
+.corona_block_school_digital{
+    margin: 4em 2em;
+}
+
+.corona_block_school_digital_text a:after {
+    content: '\270D';   
+}
+
+.corona_block_school_digital_text a{
+    color: rgb(62, 117, 59);
+}
+
+.corona_block_school_digital_text a:hover {
+    background: #6aa8cf;
+    border-radius: .3em;
+}
