@@ -1,38 +1,41 @@
 .parents{
     width: 87%;
     height: 100%;
-    overflow-x: scroll;        
-    align-items: center;
-    display: flex;    
+    overflow-y: scroll;        
+    display: flex;
+    align-items: flex-start;  
 }
 
 .parents_block{    
-    width: 70%;                
-    margin: 2em 4.5em;    
-    padding: 2em 1em;   
-    border-radius: .3em;    
-    padding: .5em 1em;    
+    width: 70%;              
+    margin: 2em 4.5em;   
+    padding: 0em 7em;    
     background-color: rgb(254, 255, 254, 0.7);
-    font-size: 18px;
-    text-align: left;
+    font-size: 18px;    
     border-radius: .3em; 
     color: rgb(62, 117, 59);
-        
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
 }
 
-.parents_block_father{
-    width: 90%;
-    height: 25%;
-    margin: 2em;
-  
-
+.parents_block
+>h2{
+    margin: 1em 0em 1em 0em;
+    font-size: 22px;
+    text-align: center; 
 }
 
-.parents_block_father_foto{
-    width: 70%;
-    height: 30%; 
-    margin: 4em 0em 0em 0em;
+.parents_block_father{ 
+    height: 50%;
+    width: 100%;    
+}
 
+.parents_block_father_photo{
+    width: 100%;
+    height: 100%; 
+    margin: 1em 0em 0em 0em;
+    object-fit: contain;    
 }
 
 .father_photo{
@@ -41,11 +44,15 @@
 }
 
 .parents_block_father_text{
+    width: 100%;
+    height: 50%; 
     font-size: 16px;
+    text-align: justify;
 }
 
 .parents_block_father_text span{
     color: rgb(62, 117, 59);
+    margin-left: 2em;
 }
 
 .parents_block_father_text span:after {
@@ -53,34 +60,32 @@
 }
 
 .parents_block_with_baby_alone{
-    width: 90%;
-    height: 25%;
-    margin: 2em;  
-
+    height: 50%;
+    width: 100%;
 }
 
 .with_baby_alone_photo{
-    width: 70%;
-    height: 30%; 
+    width: 100%;
+    height: 100%; 
+    margin: 4em 0em 0em 0em;
+    object-fit: contain;    
 }
 
-.parents_block_with_baby_alone_foto{
+.parents_block_with_baby_alone_photo{
     width: 100%;
     height: 100%;
-    margin: 4em 0em 0em 0em;
-}
-
-.without_marrige_photo{
-    width: 70%;
-    height: 30%; 
 }
 
 .parents_block_with_baby_alone_text{
+    width: 100%;
+    height: 50%; 
     font-size: 16px;
+    text-align: justify;
 }
 
 .parents_block_with_baby_alone_text span{
     color: rgb(62, 117, 59);
+    margin-left: 2em;
 }
 
 .parents_block_with_baby_alone_text span:after {
@@ -88,17 +93,15 @@
 }
 
 .parents_block_classic_family{
-    width: 90%;
-    height: 25%;
-    margin: 2em;
-  
-
+    height: 50%;
+    width: 100%;
 }
 
 .parents_block_classic_family_foto{
-    width: 70%;
-    height: 30%;
+    width: 100%;
+    height: 100%; 
     margin: 4em 0em 0em 0em;
+    object-fit: contain;    
 }
 
 .classic_family_photo{
@@ -107,11 +110,15 @@
 }
 
 .parents_block_classic_family_text{
+    width: 100%;
+    height: 50%; 
     font-size: 16px;
+    text-align: justify;
 }
 
 .parents_block_classic_family_text span{
     color: rgb(62, 117, 59);
+    margin-left: 2em;
 }
 
 .parents_block_classic_family_text span:after {
@@ -119,37 +126,43 @@
 }
 
 .parents_block_without_merriage{
-    width: 90%;
-    height: 25%;
-    margin: 2em;
-    
-
+    height: 100%;
+    width: 100%;
 }
 
 .parents_block_without_merriage_foto{
     width: 100%;
-    height: 100%;
-    margin: 4em 0em 0em 0em;   
+    height: 100%; 
+    margin: 4em 0em 0em 0em;
+    object-fit: contain;       
 }
 
+.without_marrige_photo{
+    width: 100%;
+    height: 100%;
+}
 
 .parents_block_without_merriage_text{
+    width: 100%;
+    height: 50%; 
     font-size: 16px;
+    text-align: justify;
+    margin: 0em 0em 4em 0em;
 }
 
 
 .parents_block_without_merriage_text span{
     color: rgb(62, 117, 59);
+    margin-left: 2em;
 }
 
 .parents_block_without_merriage_text span:after {
-    color: rgb(62, 117, 59);
+    content: '\270D';
 }
 
 .parents_menu{
     width: 30%;
-    height: 100%;           
-
+    height: 100%;
 }
 
 

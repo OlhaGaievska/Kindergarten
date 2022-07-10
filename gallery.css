@@ -1,0 +1,125 @@
+.gallery{
+    width: 80%;
+    height: 100%;
+    overflow-y: scroll;   
+    display: flex;
+}
+
+.gallery_photo{
+    width: 70%;
+    height: 120%;       
+    margin: 2em 4.5em;   
+    padding: 0em 2em;    
+    background-color: rgb(254, 255, 254, 0.7);
+    font-size: 18px;    
+    border-radius: .3em; 
+    color: rgb(62, 117, 59);
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+hr{
+    background-color: rgb(62, 117, 59);         
+    width: 100%;     
+}
+
+.gallery_photo_helloween{
+    width: 100%; 
+    height: 25%;
+    display: flex;
+    justify-content: center;     
+}
+.arrow_left{
+    width: 5%;
+    height: 10%;
+    margin-right: 0.5em;    
+}
+
+.gallery_photo_helloween_ul{
+    width: 90%;
+    height: 100%;
+    display: flex;    
+    overflow: hidden;    
+}
+
+
+.arrow_right{
+    width: 5%;
+    height: 10%;
+    margin-left: 0.5em;  
+}
+
+.halloween_childrens{
+    width: 14em;
+    height: 9em;
+    margin-right: 0.5em;
+    border-radius: .3em;
+}
+
+.arrow_photo{
+    width: 2em;
+    height: 2em;
+    margin-top: 4em;   
+}
+
+.gallery_photo_helloween_pager{
+  margin: 0em 0em 2em 0em;  
+}
+
+.gallery_photo_helloween_pager a{
+   text-decoration: none;   
+}
+
+.gallery_photo_helloween_pager
+span{
+    font-size: 42px;
+    color: rgb(62, 117, 59);
+    font-weight: 900;    
+}
+
+.gallery_photo_helloween_pager
+span:hover{    
+    color: white;   
+}
+
+.gallery_photo_сhristmas{
+    width: 100%; 
+    height: 25%;
+    display: flex;
+    justify-content: center; 
+}
+
+.gallery_photo_сhristmas_ul{
+    width: 90%;
+    height: 100%;
+    display: flex;    
+    overflow: hidden;    
+}
+
+.сhristmas_childrens{
+    width: 14em;
+    height: 9em;
+    margin-right: 0.5em;
+    border-radius: .3em;
+}
+
+.gallery_photo_сhristmas_pager{
+    margin: 0em 0em 4em 0em;  
+}
+
+.gallery_photo_сhristmas_pager a{
+   text-decoration: none;
+}
+
+.gallery_photo_сhristmas_pager
+span{
+    font-size: 42px;
+    color: rgb(62, 117, 59);
+    font-weight: 900;    
+}
+
+.gallery_photo_сhristmas_pager
+span:hover{    
+    color: white;   
+}
